@@ -1,0 +1,194 @@
+.home{
+    margin-top: 2.5rem;
+}
+.home .content h2{
+    font: .34rem/1.08rem '微软雅黑';
+    display: flex;
+    align-items: center;
+}
+.home .content h2 i{
+    display: inline-block;
+    width: 2px;
+    height: .35rem;
+    background:  #dd001b;
+    margin-right: .1rem;
+}
+
+
+.home .content .grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home .content .grid>div{     
+    width: 2.35rem;
+    font: .26rem/1.2 '宋体';
+    color: #333;
+    margin-bottom: .32rem;
+    position: relative;
+}
+.home .content .grid img{
+    width: 2.35rem;
+}
+.home .content .grid p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 6px 2px 0 6px;
+    min-height: 30px;
+    line-height: 1.2;
+    font-size: 13px;
+}
+
+.home .content .newList>div{
+    width: 100%;
+    height: 1.1rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+}
+.home .content .newList .newlistLeft{
+    margin-left: .2rem;
+    padding: 6px 0;
+}
+.home .content .newList .newlistLeft h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .34rem;
+}
+.home .content .newList .newlistLeft h3 span{    
+    color: #888;
+    margin-left: 4px;
+}
+.home .content .newList .newlistLeft p{
+    font-size: .24rem;
+    color: #888;
+}
+.home .content .newList .newlistLeft p i:nth-last-of-type(1) span {
+    display: none;
+}
+.home .content .newList .newlistLeft p span{
+    margin: 0 .1rem;
+}
+.home .content .newList .newlistRight {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 .2rem;
+}
+.home .content .newList .newlistRight span{
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-size: 166px 97px;
+    background-position: -.45rem 0;
+}
+
+
+.home .content .footer{
+    padding-top: 53.3%;
+    margin-top: 4px;
+    background: url(../images/homeButtom.png) no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.home .content .footer>div{    
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+.home .content .footer>div div{
+    line-height: .72rem;
+    border: 1px solid #d33a31;
+    border-radius: .72rem;
+    font-size: .32rem;
+    color: #d33a31;
+    margin: .3rem .72rem .1rem;
+}
+.home .content .footer>div p{
+    color: #888;
+    font-size: .24rem;
+    line-height: .32rem;
+    -webkit-transform: scale(.75);
+    -ms-transform: scale(.75);
+    transform: scale(.75);
+}
+.home .playCount{
+    display: block;
+    width: 1.1rem;
+    height: .36rem;
+    position: absolute;
+    top: .1rem;
+    right: .2rem;
+    font-size: .24rem;
+    color: #fff;
+    background: url(../images/erji.svg) no-repeat;    
+    background-position: 0 .04rem;
+    background-size: .22rem .2rem;
+    text-align: right;
+}
+.sq{
+    display: inline-block;    
+    width: .24rem;
+    height: .16rem;
+    margin-right: .08rem;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-size: 166px 97px;
+}
+
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.banner img{
+    width: 100%;
+}

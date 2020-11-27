@@ -1,0 +1,101 @@
+.rank{
+    margin-top: 2.5rem;
+}
+.rank .topImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    height: 2.9rem;
+    background: url(../images/topImg.jpg) no-repeat;
+    background-size: contain;
+}
+.rank .topImg div{
+    width: 2.84rem;
+    height: 1.34rem;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-position: -.48rem -.6rem;
+    background-size: 166px 97px;
+    margin-left: .6rem;
+}
+.rank .topImg p{
+    margin-left: .6rem;
+    margin-top: .2rem;
+    transform: scale(.91);
+    transform-origin: left top;
+    font-size: .24rem;
+    color: hsla(0,0%,100%,.8);
+}
+
+.rank   .newList>div{
+    width: 100%;
+    height: 1.1rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+    display: flex;
+}
+.rank   .newList .newlistLeft{
+    padding: 6px 0;
+    overflow: hidden;
+    flex: 1;
+}
+.rank   .newList .newlistLeft h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .34rem;
+}
+.rank   .newList .newlistLeft h3 span{    
+    color: #888;
+    margin-left: 4px;
+}
+.rank   .newList .newlistLeft p{
+    font-size: .24rem;
+    color: #888;
+}
+.rank   .newList .newlistLeft p i:nth-last-of-type(1) span{
+    display: none;
+}
+.rank   .newList .newlistLeft p span{
+    margin: 0 .1rem;
+}
+.rank   .newList .newlistRight {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 .2rem;
+}
+.rank   .newList .newlistRight span{
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-size: 166px 97px;
+    background-position: -.45rem 0;
+}
+
+.rank .rankId{
+    width: .8rem;
+    height: 100%;
+    font-size: .34rem;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coldf3436{
+    color: #df3436 !important;
+}
+.sq{
+    display: inline-block;    
+    width: .24rem;
+    height: .16rem;
+    margin-right: .08rem;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-size: 166px 97px;
+}

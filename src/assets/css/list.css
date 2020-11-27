@@ -1,0 +1,137 @@
+.list .top{
+    width: 100%;
+    height: 4.2rem;
+    background: url(../images/listImg.jpg) no-repeat;
+    background-size: cover !important;
+    background-position: 50% !important;
+    padding-top: .6rem;
+    padding-left: .3rem;
+    box-sizing: border-box;
+}
+.list .top h3{
+    font-size: .36rem;
+    color: #fff;
+}
+.list .top span{
+    display: block;
+    width: 1.08rem;
+    height: .36rem;
+    color: hsla(0,0%,100%,.6);
+    text-align: center;
+    background: hsla(0,0%,100%,.2);
+    margin-top: .2rem;
+}
+.list .top ul{   
+    margin-top: .4rem;
+    position: relative;
+}
+.list .top li{
+    font-size: .28rem;
+    color: hsla(0,0%,100%,.8);
+    margin-top: .05rem;
+}
+.list .top li:nth-last-of-type(1) i{
+    position: absolute;
+    right: .2rem;
+    bottom: .12rem;
+    display: block;
+    width: .1rem;
+    height: .1rem;
+    border-top: 1px solid hsla(0,0%,100%,.8);
+    border-right: 1px solid hsla(0,0%,100%,.8);
+    transform: rotate(45deg);
+}
+
+.list .content h2{
+    height: .46rem;
+    line-height: .46rem;
+    padding: 0 .2rem;
+    font-size: .24rem;
+    color: #666;
+    background-color: #eeeff0;
+}
+
+
+.list .content .newList>div{
+    width: 100%;
+    height: 1.1rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+    display: flex;
+}
+.list .content .newList .newlistLeft{
+    padding: 6px 0;
+    overflow: hidden;
+    flex: 1;
+}
+.list .content .newList .newlistLeft h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .34rem;
+}
+.list .content .newList .newlistLeft h3 span{    
+    color: #888;
+    margin-left: 4px;
+}
+.list .content .newList .newlistLeft p{
+    font-size: .24rem;
+    color: #888;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list .content .newList .newlistLeft p i:nth-last-of-type(1) span{
+    display: none;
+}
+.list .content .newList .newlistLeft p span{
+    margin: 0 .1rem;
+}
+.list .content .newList .newlistRight {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 .2rem;
+}
+.list .content .newList .newlistRight span{
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-size: 166px 97px;
+    background-position: -.45rem 0;
+}
+
+.list .rankId{
+    width: .8rem;
+    height: 100%;
+    font-size: .34rem;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list .topT{
+    position: relative;
+    padding: .6rem .2rem .6rem .3rem;
+    overflow: hidden;
+    width: 100%;
+    height: 4.2rem;
+    background: url(../images/listImg.jpg) no-repeat;
+    background-size: cover !important;
+    background-position: 50% !important;
+    box-sizing: border-box;
+}
+.list .topT .plhead_wrap{
+    display: flex;
+}
+.list .topT .plhead_wrap img{
+    width: 2.52rem;
+    height: 2.52rem;
+}

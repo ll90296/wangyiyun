@@ -1,0 +1,93 @@
+.play{
+    background: cadetblue;
+    height: 100vh;
+}
+.play .top{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.7rem;
+}
+.play .blackCri{
+    width: 5.9rem;
+    height: 5.92rem;
+    background: url(../images/blackCri.png) no-repeat;
+    background-size: 5.92rem;
+    position: relative;
+    top: 1.4rem;
+    display: flex;
+    justify-content: center;
+}
+.play .blackCri div:nth-of-type(1){
+    width: 3.9rem;
+    height: 3.9rem;
+    border-radius: 50%;
+    background: url(../images/disc_default.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.play .blackCri .playBtn{
+    width: 1.12rem;
+    height: 1.12rem;
+    background: url(../images/playbtn.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 2.5rem;
+    display: none;
+}
+.play .blackCri img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.play .ciTiao{
+    width: 1.92rem;
+    height: 2.84rem;
+    position: absolute;
+    background: url(../images/needle-ip6.png) no-repeat;
+    background-size: contain;
+    left: 3.26rem;
+}
+
+.play .footer{
+    height: 2.66rem;
+    overflow: hidden;
+    position: relative;
+    overflow: auto;
+}
+.play .footer .lyric{
+    width: 100%;
+    text-align: center;
+    transition: .5s;
+    padding-top: 1rem;
+}
+.play .footer .lyric h3 {
+    font: bold .36rem '微软雅黑';
+    text-align: center;
+    line-height: 1.1;
+    /* color: #fefefe; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.play .footer .lyric h3 i {
+    font-weight: normal;
+    font-size: .32rem;
+    color: hsla(0,0%,100%,.6);
+}
+.play .footer .lyric p{
+    font-size: .32rem;
+    /* margin-top: .28rem; */
+    /* padding-bottom: .16rem; */
+    color: rgb(255, 255, 255);
+    height: 31px;
+    line-height: 31px;
+}
+.play .footer audio{
+    margin-top: 1rem;
+}
+
+.active{
+    color: chartreuse !important;
+}
